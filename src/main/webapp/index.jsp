@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title><%= "some title" %></title>
+    <title>Adlister</title>
     <jsp:include page="WEB-INF/partials/head.jsp"/>
 </head>
 <body>

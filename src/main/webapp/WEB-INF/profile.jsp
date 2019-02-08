@@ -1,0 +1,14 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <jsp:include page="/WEB-INF/partials/head.jsp">
+        <jsp:param name="title" value="Profile page" />
+    </jsp:include>
+</head>
+<body>
+    <jsp:include page="/WEB-INF/partials/navbar.jsp"/>
+    <div class="container">
+        <h1>Welcome to your Profile Page!</h1>
+    </div>
+</body>
+</html>

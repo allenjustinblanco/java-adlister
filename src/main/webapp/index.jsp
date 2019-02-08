@@ -2,9 +2,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title><%= "some title" %></title>
+    <jsp:include page="/WEB-INF/partials/head.jsp">
+        <jsp:param name="title" value="Welcome to my Adlister!" />
+    </jsp:include>
+    <link rel="stylesheet" href="css/AdLister.css">
 </head>
 <body>
-<h1>Welcome to my Adlister!!</h1>
+    <jsp:include page="/WEB-INF/partials/navbar.jsp" />
+    <div>
+        <h2>Welcome to my Adlister!</h2>
+    </div>
 </body>
 </html>

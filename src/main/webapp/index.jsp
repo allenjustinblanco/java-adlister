@@ -3,8 +3,10 @@
 <html>
 <head>
     <title><%= "some title" %></title>
+    <jsp:include page="WEB-INF/partials/head.jsp"/>
 </head>
 <body>
+<jsp:include page="WEB-INF/partials/navbar.jsp"/>
 <h1>Welcome to my Adlister!!</h1>
 </body>
 </html>

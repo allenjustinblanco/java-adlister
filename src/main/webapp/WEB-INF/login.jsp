@@ -2,17 +2,18 @@
 <html>
 <head>
     <title>login page</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <jsp:include page="partials/head.jsp"/>
 </head>
 <body>
-<form action="/WEB-INF/login.jsp" method="post">
+<jsp:include page="partials/navbar.jsp"/>
+<form action="/login" method="post">
     <div class="form-group">
         <label for="username">Email address:</label>
-        <input type="text" class="form-control" id="username">
+        <input type="text" class="form-control" id="username" name="password">
     </div>
     <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="pwd">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="pwd" name="password">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
